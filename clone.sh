@@ -16,6 +16,7 @@ rm -rf vendor/ih8sn
 
 # Clone repositories into their respective paths
 git clone -b $BRANCH $BASE_URL/kernel_oneplus_sdm845 kernel/oneplus/sdm845
+git clone -b $BRANCH $BASE_URL/vendor_oneplus_sdm845-common vendor/oneplus/sdm845-common
 git clone -b $BRANCH $BASE_URL/vendor_oneplus_fajita vendor/oneplus/fajita
 git clone -b $BRANCH $BASE_URL/device_oneplus_fajita device/oneplus/fajita
 git clone -b $BRANCH $BASE_URL/device_oneplus_sdm845-common device/oneplus/sdm845-common
